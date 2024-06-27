@@ -5,7 +5,7 @@ from brainflow.board_shim import BoardShim, BoardIds, BrainFlowInputParams
 import numpy as np
 import time
 from scipy.stats import zscore
-from board import BoardManager
+from ..board import BoardManager
 
 
 # Initialize BoardManager and setup the board
